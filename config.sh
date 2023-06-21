@@ -43,7 +43,7 @@ sudo cp my-shortkey ~/.oh-my-zsh/
 echo "====================="
 echo "3. Install Lazy vim"
 
-sudo apt-get install -f -y software-properties-common build-essential nodejs npm 
+sudo apt-get install -f -y software-properties-common build-essential
 
 # install neo vim
 sudo add-apt-repository ppa:neovim-ppa/unstable
