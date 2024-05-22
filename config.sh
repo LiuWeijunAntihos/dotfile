@@ -47,7 +47,7 @@ sudo apt-get install -f -y software-properties-common build-essential
 
 # install neo vim
 sudo add-apt-repository ppa:neovim-ppa/unstable
-sudo apt-get update && apt-get install -f -y neovim lua5.3
+sudo apt-get update && sudo apt-get install -f -y neovim lua5.3
 
 # install LazyVim
 rm -rf ~/.config/nvim ~/.local/share/nvim 
